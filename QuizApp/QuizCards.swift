@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct QuizCards: View {
+struct QuizCards<Content: View>: View {
+  @ViewBuilder var content: Content
+  
   @State private var count = 0
   @State private var xOffset: CGFloat = .zero
   @State private var rotationDegrees: CGFloat = .zero
