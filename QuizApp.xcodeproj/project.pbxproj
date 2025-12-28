@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		75218B832F01DE4F0065FE7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75218B7F2F01DE4F0065FE7B /* ContentView.swift */; };
+		75218B842F01DE4F0065FE7B /* QuizAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75218B802F01DE4F0065FE7B /* QuizAppApp.swift */; };
+		75218B852F01DE4F0065FE7B /* QuizCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75218B812F01DE4F0065FE7B /* QuizCards.swift */; };
+		75218B862F01DE4F0065FE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75218B7E2F01DE4F0065FE7B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		75218B592F003C3E0065FE7B /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75218B7E2F01DE4F0065FE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75218B7F2F01DE4F0065FE7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75218B802F01DE4F0065FE7B /* QuizAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppApp.swift; sourceTree = "<group>"; };
+		75218B812F01DE4F0065FE7B /* QuizCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		75218B5B2F003C3E0065FE7B /* QuizApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = QuizApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		75218B562F003C3E0065FE7B /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		75218B502F003C3E0065FE7B = {
 			isa = PBXGroup;
 			children = (
-				75218B5B2F003C3E0065FE7B /* QuizApp */,
+				75218B822F01DE4F0065FE7B /* QuizApp */,
 				75218B5A2F003C3E0065FE7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,17 @@
 				75218B592F003C3E0065FE7B /* QuizApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		75218B822F01DE4F0065FE7B /* QuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				75218B7E2F01DE4F0065FE7B /* Assets.xcassets */,
+				75218B7F2F01DE4F0065FE7B /* ContentView.swift */,
+				75218B812F01DE4F0065FE7B /* QuizCards.swift */,
+				75218B802F01DE4F0065FE7B /* QuizAppApp.swift */,
+			);
+			path = QuizApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +73,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				75218B5B2F003C3E0065FE7B /* QuizApp */,
 			);
 			name = QuizApp;
 			packageProductDependencies = (
@@ -109,6 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75218B862F01DE4F0065FE7B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75218B832F01DE4F0065FE7B /* ContentView.swift in Sources */,
+				75218B842F01DE4F0065FE7B /* QuizAppApp.swift in Sources */,
+				75218B852F01DE4F0065FE7B /* QuizCards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
