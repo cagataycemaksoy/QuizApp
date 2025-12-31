@@ -22,10 +22,8 @@ struct QuizCards<Content: View>: View {
               .font(.title.bold())
             
             ZStack{
-              let collectionArray = Array(collection[0...])
-              
-              ForEach(collectionArray) { view in
-                let indexZ = collectionArray.count - (collectionArray.firstIndex(where: {$0.id == view.id}) ?? 0)
+              ForEach(collection) { view in
+                let indexZ = collection.count - (collection.firstIndex(where: {$0.id == view.id}) ?? 0)
                 
                 view
                   .frame(width: (geo.size.width/3) * 2, height: (geo.size.height/2) * 1.3)
